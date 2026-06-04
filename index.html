@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <title>Tap & Drink</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       padding: 40px;
     }
+
     .btn {
       display: inline-block;
       margin: 10px;
@@ -19,8 +21,27 @@
       text-decoration: none;
       border-radius: 8px;
     }
+
+    .qr-section {
+      margin-top: 50px;
+    }
+
+    .qr-section img {
+      width: 220px;
+      height: 220px;
+      margin-top: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .subtitle {
+      font-size: 12px;
+      color: gray;
+      margin-top: 10px;
+    }
   </style>
 </head>
+
 <body>
 
   <h1>Tap & Drink</h1>
@@ -28,6 +49,17 @@
 
   <a class="btn" href="go.html">📲 Download App</a>
   <a class="btn" href="privacy.html">🔒 Privacy Policy</a>
+
+  <!-- 🔽 QR CODE SECTION -->
+  <div class="qr-section">
+    <h2>Share the app</h2>
+
+    <img src="assets/qr.png" alt="Tap & Drink QR Code" />
+
+    <p class="subtitle">
+      Scan to download Tap & Drink
+    </p>
+  </div>
 
   <p style="margin-top:40px; font-size:12px; color:gray;">
     © Tap & Drink
